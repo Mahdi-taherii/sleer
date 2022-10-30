@@ -8,6 +8,7 @@
           <div class="box-slider">
                 <div class="photo-sloider">
                     <img src="../assets/image/Rectangle 1161.png" alt="">
+                    <div class="hover-photo"><p class="name-view">View</p></div>
                     <p>About picture</p>
                 </div>
                 <div class="photo-sloider1">
@@ -17,6 +18,7 @@
                 </div>
                 <div class="photo-sloider">
                     <img src="../assets/image/Rectangle1255548.png" alt="">
+                    <div class="hover-photo"><p class="name-view">View</p></div>
                     <p>About picture About picture About </p>
                 </div>
           </div>
@@ -85,6 +87,7 @@ export default {};
   background-image: url("../assets/image/Polygon2.png");
 }
 .photo-sloider{
+  position: relative;
     width: 267px;
     height: 250px;
     margin: 0 15px;
@@ -92,6 +95,7 @@ export default {};
 }
 
 .photo-sloider1{
+  position: relative;
     width: 267px;
     height: 250px;
     margin: 0 15px;
@@ -129,12 +133,12 @@ export default {};
 .hover-photo{
     cursor: pointer;
     position: absolute;
-    left: 640px;
-    top: 1870px;
+    left: 100px;
+    top: 100px;
     width: 99px;
     border-radius: 10px;
     height: 48px;
-    background:  rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.9);
     color: #325E6A;
     font-size: 18px;
     font-weight: 500;
@@ -145,6 +149,9 @@ export default {};
     opacity: calc(0.7);
 }
 .photo-sloider1:hover .hover-photo{
+    display: inline;
+}
+.photo-sloider:hover .hover-photo{
     display: inline;
 }
 </style>
