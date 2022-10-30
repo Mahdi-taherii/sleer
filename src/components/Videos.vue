@@ -1,0 +1,116 @@
+<template>
+  <div class="all-page">
+    <div class="main-page">
+      <div class="btn-back">
+        <img src="../assets/image/vector4.png" alt="" />
+      </div>
+      <div class="video-player">
+        <div class="videos-title"><h2>VIdeos</h2></div>
+        <div class="box-video">
+          <div class="img-Rectangle">
+            <img src="../assets/image/Rectangle11 (3).png" alt="" width="270"/>
+          </div>
+          <div class="img-Rectangle">
+            <img src="../assets/image/Rectangle11 (1).png" alt="" width="270"/>
+          </div>
+          <div class="img-Rectangle">
+            <img src="../assets/image/Rectangle11 (2).png" alt="" width="270"/>
+          </div>
+        </div>
+        <div class="pointer">
+          <div class="point"></div>
+          <div class="point"></div>
+          <div class="point1"></div>
+          <div class="point"></div>
+          <div class="point"></div>
+        </div>
+      </div>
+      <div class="btn-next">
+        <img src="../assets/image/vector5.png" alt="" />
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style scoped>
+.all-page {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 479px;
+  background: #ffffff;
+}
+.main-page {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.video-player {
+  display: flex;
+  flex-direction: column;
+}
+.btn-back {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 38px;
+  background-image: url("../assets/image/Polygon2.png");
+}
+.btn-next {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 38px;
+  background-image: url("../assets/image/Polygon2.png");
+}
+.pointer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.point {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgb(225, 222, 222);
+  margin: 0 7px;
+  margin-top: 50px;
+}
+.point1 {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #008bde;
+  margin: 0 7px;
+  margin-top: 50px;
+}
+.box-video {
+  width: 277px;
+  height: 252px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.img-Rectangle {
+  margin: 0 20px;
+  width: 277px;
+  height: 252px;
+}
+.videos-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+}
+</style>
