@@ -8,13 +8,46 @@
         <div class="videos-title"><h2>VIdeos</h2></div>
         <div class="box-video">
           <div class="img-Rectangle">
-            <img src="../assets/image/Rectangle11 (3).png" alt="" width="270"/>
+            <img src="../assets/image/Rectangle11 (3).png" alt="" width="270" />
+            <img
+              src="../assets/image/Group 1896.png"
+              alt=""
+              class="logo-play"
+            />
+            <img
+              src="../assets/image/Rectangle 1190.png"
+              alt=""
+              class="logo-shadow"
+            />
+            <p class="text-play">Im your Friend</p>
           </div>
           <div class="img-Rectangle">
-            <img src="../assets/image/Rectangle11 (1).png" alt="" width="270"/>
+            <img src="../assets/image/Rectangle11 (1).png" alt="" width="270" />
+            <img
+              src="../assets/image/Group 1896.png"
+              alt=""
+              class="logo-play"
+            />
+            <img
+              src="../assets/image/Rectangle 1190.png"
+              alt=""
+              class="logo-shadow"
+            />
+            <p class="text-play">Why Youtube?</p>
           </div>
           <div class="img-Rectangle">
-            <img src="../assets/image/Rectangle11 (2).png" alt="" width="270"/>
+            <img src="../assets/image/Rectangle11 (2).png" alt="" width="270" />
+            <img
+              src="../assets/image/Group 1896.png"
+              alt=""
+              class="logo-play"
+            />
+            <img
+              src="../assets/image/Rectangle 1190.png"
+              alt=""
+              class="logo-shadow"
+            />
+            <p class="text-play">The new Microsoft motherboard</p>
           </div>
         </div>
         <div class="pointer">
@@ -87,6 +120,9 @@ export default {};
   margin: 0 7px;
   margin-top: 50px;
 }
+.point:hover{
+  background: #008bde;
+}
 .point1 {
   width: 8px;
   height: 8px;
@@ -104,6 +140,7 @@ export default {};
   align-items: center;
 }
 .img-Rectangle {
+  position: relative;
   margin: 0 20px;
   width: 277px;
   height: 252px;
@@ -112,5 +149,25 @@ export default {};
   text-align: center;
   font-weight: 700;
   font-size: 32px;
+}
+.logo-play {
+  position: absolute;
+  left: 100px;
+  top: 80px;
+  cursor: pointer;
+}
+.logo-shadow {
+  position: absolute;
+  top: 95px;
+  left: 0px;
+  width: 270px;
+}
+.text-play {
+  position: absolute;
+  font-weight: 500;
+  font-size: 16px;
+  top: 160px;
+  color: white;
+  left: 10px;
 }
 </style>

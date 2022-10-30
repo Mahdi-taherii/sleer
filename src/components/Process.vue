@@ -1,13 +1,131 @@
 <template>
-  
+  <div class="container">
+    <div class="text-title"><h2>Process Site Map</h2></div>
+    <div class="box-main">
+      <p class="text-absolute1">1- TARGETS</p>
+      <p class="text-absolute2">2- GET STARTED</p>
+      <p class="text-absolute3">3- FROM CONCEPT TO CREATION</p>
+      <p class="text-absolute4">4- This corporation consists</p>
+      <img src="../assets/image/Vector 62.png" alt="" width="1000" />
+      <img src="../assets/image/Polygon 4.png" alt="" class="polygon1" />
+      <img src="../assets/image/Polygon 4.png" alt="" class="polygon2" />
+      <img src="../assets/image/Polygon 4.png" alt="" class="polygon3" />
+      <img src="../assets/image/Polygon 4.png" alt="" class="polygon4" />
+        <img src="../assets/image/Ellipse 100.png" alt="" class="img-circel1">
+        <img src="../assets/image/Ellipse 99.png" alt="" class="img-circel2">
+        <img src="../assets/image/Ellipse 98.png" alt="" class="img-circel3">
+        <img src="../assets/image/Ellipse 97.png" alt="" class="img-circel4">
+    </div>
+  </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
+<style scoped>
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  background: #ffffff;
+}
+.text-title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #325e6a;
+  padding-bottom: 60px;
+}
+.box-main {
+  position: relative;
+  width: 70%;
+  height: 550px;
+}
+.polygon1 {
+  position: absolute;
+  top: 250px;
+  width: 20px;
+  left: 120px;
+  transform: rotate(-5deg);
+}
+.polygon2 {
+  position: absolute;
+  top: -10px;
+  width: 20px;
+  left: 350px;
+  transform: rotate(5deg);
+}
+.polygon3 {
+  position: absolute;
+  top: 250px;
+  width: 20px;
+  left: 620px;
+  transform: rotate(-5deg);
+}
+.polygon4 {
+  position: absolute;
+  top: -10px;
+  width: 20px;
+  left: 860px;
+  transform: rotate(5deg);
+}
+.text-absolute1 {
+  position: absolute;
+  font-weight: 700;
+  font-size: 20px;
+  color: #008bde;
+  top: -20px;
+  left: 50px;
+}
+.text-absolute2 {
+    position: absolute;
+  font-weight: 700;
+  font-size: 20px;
+  color: #008bde;
+  left: 280px;
+  top: 270px;
+}
+.text-absolute3 {
+    position: absolute;
+  font-weight: 700;
+  font-size: 20px;
+  color: #008bde;
+  left: 480px;
+  top: -20px;
+}
+.text-absolute4 {
+    position: absolute;
+  font-weight: 700;
+  font-size: 20px;
+  color: #008bde;
+  left: 700px;
+  top: 260px;
+}
+.img-circel1{
+  position: absolute;
+  width: 140px;
+  top: 70px;
+  left: 60px;
+}
+.img-circel2{
+    position: absolute;
+  width: 140px;
+  top: 70px;
+  left: 290px;
+}
+.img-circel3{
+    position: absolute;
+  width: 140px;
+  top: 70px;
+  left: 550px;
+}
+.img-circel4{
+    position: absolute;
+  width: 140px;
+  top: 70px;
+  left: 800px;
+}
 </style>

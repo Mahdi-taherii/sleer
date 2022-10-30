@@ -6,8 +6,9 @@ import Pictures from "../components/Pictures.vue";
 import Tables from "../components/Tables.vue";
 import Videos from "../components/Videos.vue";
 import Suppliers from '../components/Suppliers.vue'
+import Process from '../components/Process.vue'
 export default {
-  components: { Header, MainPhoto, Rectangle, Pictures, Tables, Videos ,Suppliers  },
+  components: { Header, MainPhoto, Rectangle, Pictures, Tables, Videos ,Suppliers , Process  },
 
   methods: {
     text() {
@@ -25,4 +26,12 @@ export default {
   <Tables />
   <Videos/>
   <Suppliers/>
+  <Process/>
+  <div  class="colleagues">
+    
+  </div>
 </template>
+
+<style scoped>
+
+</style>

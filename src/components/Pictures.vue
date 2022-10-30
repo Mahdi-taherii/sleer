@@ -16,7 +16,7 @@
                     <p>About picture About picture About picture About picture</p>
                 </div>
                 <div class="photo-sloider">
-                    <img src="../assets/image/Rectangle 1169.png" alt="">
+                    <img src="../assets/image/Rectangle1255548.png" alt="">
                     <p>About picture About picture About </p>
                 </div>
           </div>
@@ -114,6 +114,9 @@ export default {};
   background: rgb(225, 222, 222);
   margin: 0 7px;
   margin-top: 50px;
+}
+.point:hover{
+  background: #008BDE;
 }
 .point1{
     width: 8px;

@@ -30,7 +30,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+
+};
 </script>
 
 <style scoped>
@@ -104,6 +106,9 @@ p {
   background: rgb(225, 222, 222);
   margin: 0 7px;
   margin-top: 50px;
+}
+.point:hover{
+  background: #FF9C00;
 }
 .point1{
   width: 8px;
