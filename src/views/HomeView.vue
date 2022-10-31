@@ -111,7 +111,7 @@ export default {
             <div class="slider-hover">{{ user.title }}</div>
           </div>
           <div class="box-logo4">
-            <img src="../assets/image/img/vector.png" alt="" />
+            <img src="../assets/image/logo/vector10.png" alt="" />
             <div class="slider-hover">{{ user.title }}</div>
           </div>
           <div class="box-logo5">
