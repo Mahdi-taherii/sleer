@@ -62,3 +62,22 @@
   .img-next:hover{
       opacity: calc(0.5);
   }
+  @media screen and (max-width : 600px){
+    .banner-head{
+      font-size: 25px;
+    }
+    .main-main{
+      font-size: 15px;
+    }
+    .button-Project{
+      width: 100px;
+      height: 40px;
+      font-size: 15px;
+    }
+    .main-img{
+      height: 500px;
+    }
+    .img-next-back{
+      width: 20px;
+    }
+  }

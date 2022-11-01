@@ -2,7 +2,7 @@
   <main>
     <div class="main-img">
       <div class="model">
-        <div class="img-back"><img src="../assets/image/Vector2.png" alt="" /></div>
+        <div class="img-back"><img src="../assets/image/Vector2.png" alt="" class="img-next-back"/></div>
         <div class="all-div">
           <div class="banner-head"><h2>SLEER</h2></div>
           <div class="main-main">
@@ -14,7 +14,7 @@
           </div>
           <div class="button-Project">See Project</div>
         </div>
-        <div  class="img-next"><img src="../assets/image/Vector3.png" alt="" /></div>
+        <div  class="img-next"><img src="../assets/image/Vector3.png" alt="" class="img-next-back"/></div>
       </div>
     </div>
   </main>

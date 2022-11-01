@@ -40,5 +40,5 @@ export default {
 </script>
 
 <style scoped>
-@import '../assets/styles/Rectangle.css'
+@import '../assets/styles/Rectangle.css';
 </style>

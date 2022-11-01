@@ -8,50 +8,6 @@ import Videos from "../components/Videos.vue";
 import Suppliers from "../components/Suppliers.vue";
 import Process from "../components/Process.vue";
 
-const user = [
-  {
-    id: 1,
-    url: "../assets/image/img/Rectangle 1200.png",
-    title: "Donald Norman",
-    disripton: "Scrum Master",
-  },
-  {
-    id: 2,
-    url: "../assets/image/img/Rectangle 1201.png",
-    title: "Mia sozie",
-    disripton: "Designer",
-  },
-  {
-    id: 3,
-    url: "../assets/image/img/Rectangle 1202.png",
-    title: "Tommy Slazer",
-    disripton: "Front end developer",
-  },
-  {
-    id: 4,
-    url: "../assets/image/img/Rectangle 1207.png",
-    title: "Sura Smilez",
-    disripton: "owner",
-  },
-  {
-    id: 5,
-    url: "../assets/image/img/Rectangle 1209.png",
-    title: "Lucy spark",
-    disripton: "Researcher",
-  },
-  {
-    id: 6,
-    url: "../assets/image/img/Rectangle 1208.png",
-    title: "Antonio Guadrivol",
-    disripton: "Information Arcitecture",
-  },
-  {
-    id: 7,
-    url: "../assets/image/img/Rectangle 1210.png",
-    title: "Santos Marino",
-    disripton: "Back end developer",
-  },
-];
 export default {
   components: {
     Header,
@@ -65,7 +21,50 @@ export default {
   },
   data() {
     return {
-      users: user,
+      users: [
+      {
+        id: 1,
+        url: "@/assets/image/img/Rectangle 1200.png",
+        title: "Donald Norman",
+        disripton: "Scrum Master",
+      },
+      {
+        id: 2,
+        url: "../assets/image/img/Rectangle 1201.png",
+        title: "Mia sozie",
+        disripton: "Designer",
+      },
+      {
+        id: 3,
+        url: "../assets/image/img/Rectangle 1202.png",
+        title: "Tommy Slazer",
+        disripton: "Front end developer",
+      },
+      {
+        id: 4,
+        url: "../assets/image/img/Rectangle 1207.png",
+        title: "Sura Smilez",
+        disripton: "owner",
+      },
+      {
+        id: 5,
+        url: "../assets/image/img/Rectangle 1209.png",
+        title: "Lucy spark",
+        disripton: "Researcher",
+      },
+      {
+        id: 6,
+        url: "../assets/image/img/Rectangle 1208.png",
+        title: "Antonio Guadrivol",
+        disripton: "Information Arcitecture",
+      },
+      {
+        id: 7,
+        url: "../assets/image/img/Rectangle 1210.png",
+        title: "Santos Marino",
+        disripton: "Back end developer",
+      },
+]
     };
   },
   methods: {
@@ -93,34 +92,30 @@ export default {
           <img src="../assets/image/Group 1914.png" alt="" />
         </div>
         <div class="img-profile" v-for="user in users" :key="user.id">
-          <img
-            src="../assets/image/img/Rectangle 1202.png"
-            alt=""
-            class="image-hover"
-          />
+          <img src="../assets/image/img/Rectangle 1200.png" alt="" class="image-hover" />
           <div class="box-title">
             <h2 class="title-photo">{{ user.title }}</h2>
             <p class="discription">{{ user.disripton }}</p>
           </div>
           <div class="box-logo1">
             <img src="../assets/image/linked_in.png" alt="" />
-            <div class="slider-hover">{{ user.title }}</div>
+            <div class="slider-hover"><p>{{ user.title }}</p></div>
           </div>
           <div class="box-logo2">
             <img src="../assets/image/twitter.png" alt="" />
-            <div class="slider-hover">{{ user.title }}</div>
+            <div class="slider-hover"><p>{{ user.title }}</p></div>
           </div>
           <div class="box-logo3">
             <img src="../assets/image/f.png" alt="" />
-            <div class="slider-hover">{{ user.title }}</div>
+            <div class="slider-hover"><p>{{ user.title }}</p></div>
           </div>
           <div class="box-logo4">
             <img src="../assets/image/logo/vector10.png" alt="" />
-            <div class="slider-hover">{{ user.title }}</div>
+            <div class="slider-hover"><p>{{ user.title }}</p></div>
           </div>
           <div class="box-logo5">
             <img src="../assets/image/instagram.png" alt="" />
-            <div class="slider-hover">{{ user.title }}</div>
+            <div class="slider-hover"><p>{{ user.title }}</p></div>
           </div>
         </div>
       </div>

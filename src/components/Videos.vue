@@ -7,8 +7,8 @@
       <div class="video-player">
         <div class="videos-title"><h2>VIdeos</h2></div>
         <div class="box-video">
-          <div class="img-Rectangle">
-            <img src="../assets/image/Rectangle11 (3).png" alt="" width="270" />
+          <div class="img-Rectangle1">
+            <img src="../assets/image/Rectangle11 (3).png" alt="" width="270" class="iamge-videos-play"/>
             <img
               src="../assets/image/Group 1896.png"
               alt=""
@@ -22,7 +22,7 @@
             <p class="text-play">Im your Friend</p>
           </div>
           <div class="img-Rectangle">
-            <img src="../assets/image/Rectangle11 (1).png" alt="" width="270" />
+            <img src="../assets/image/Rectangle11 (1).png" alt="" width="270" class="iamge-videos-play"/>
             <img
               src="../assets/image/Group 1896.png"
               alt=""
@@ -36,7 +36,7 @@
             <p class="text-play">Why Youtube?</p>
           </div>
           <div class="img-Rectangle">
-            <img src="../assets/image/Rectangle11 (2).png" alt="" width="270" />
+            <img src="../assets/image/Rectangle11 (2).png" alt="" width="270" class="iamge-videos-play"/>
             <img
               src="../assets/image/Group 1896.png"
               alt=""

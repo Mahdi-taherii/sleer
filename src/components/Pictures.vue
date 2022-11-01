@@ -8,7 +8,7 @@
         <div class="main-box">
           <h2>Pictures</h2>
           <div class="box-slider">
-            <div class="photo-sloider">
+            <div class="photo-sloider2">
               <img src="../assets/image/Rectangle 1161.png" alt="" />
               <div class="hover-photo"><p class="name-view">View</p></div>
               <p>About picture</p>

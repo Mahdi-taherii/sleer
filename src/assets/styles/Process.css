@@ -102,3 +102,8 @@
     top: 70px;
     left: 800px;
   }
+  @media screen and (max-width : 600px ){
+    .container{
+      display: none;
+    }
+  }

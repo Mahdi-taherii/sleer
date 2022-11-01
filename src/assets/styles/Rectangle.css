@@ -45,7 +45,7 @@
     align-items: center;
     width: 35px;
     height: 38px;
-    background-image: url("../assets/image/Polygon2.png");
+    background-image: url("../image/Polygon2.png");
   }
   .btn-next {
     cursor: pointer;
@@ -54,7 +54,7 @@
     align-items: center;
     width: 35px;
     height: 38px;
-    background-image: url("../assets/image/Polygon2.png");
+    background-image: url("../image/Polygon2.png");
   }
   .pointer {
     display: flex;
@@ -79,4 +79,12 @@
     background: #ff9c00;
     margin: 0 7px;
     margin-top: 50px;
+  }
+  @media screen and (max-width : 600px){
+    .heade-text{
+      font-size: 18px;
+    }
+    .main-text p{
+      font-size: 13px;
+    }
   }
