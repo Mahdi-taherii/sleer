@@ -4,6 +4,30 @@
       <img src="../assets/image/image1.png" alt="logo" class="logo-img" />
     </div>
     <div class="nav-link">
+      <div class="hamber-menu" @click="opeenNav">
+        <img
+          src="../assets/image/icon/icons8-menu-rounded-50.png"
+          alt=""
+          width="30"
+        />
+      </div>
+      <div class="nav-bar" v-if="closes">
+        <img src="../assets/image/image1.png" alt="logo" class="logo-img1" />
+        <div v-for="link in linkNav" :key="link.path" class="">
+          <div class="div-navItem">
+            <router-link :to="link.path" class="nav-item1">{{
+              link.name
+            }}</router-link>
+          </div>
+        </div>
+        <div class="close-side" @click="close">
+          <img
+            src="../assets/image/icon/icons8-back-arrow-50.png"
+            alt=""
+            width="30"
+          />
+        </div>
+      </div>
       <div v-for="link in linkNav" :key="link.path" class="div-item">
         <router-link :to="link.path" class="nav-item">{{
           link.name
@@ -53,69 +77,20 @@ export default {
   data() {
     return {
       linkNav: navLink,
+      closes: false,
     };
+  },
+  methods: {
+    close() {
+      this.closes = !this.closes;
+    },
+    opeenNav() {
+      this.closes = !this.closes;
+    },
   },
 };
 </script>
 
 <style scoped>
-header {
-  background: #008bde;
-  height: 64px;
-  display: flex;
-  align-items: center;
-}
-.logo-nav {
-  font-size: 14px;
-}
-.nav-item {
-  text-decoration: none;
-  color: white;
-  letter-spacing: 1px;
-}
-.nav-item:hover {
-  color: black;
-}
-.div-item {
-  display: inline;
-  padding: 0 10px;
-}
-.logo-img {
-  padding: 0 15px;
-  width: 80px;
-}
-.messager-nav {
-  width: 15%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-left: 10%;
-  margin-right: 2%;
-}
-.logo-ms {
-  padding: 10px;
-}
-.logomessage {
-  margin: 0 7px;
-  border-radius: 10px;
-  background: #325e6a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 32px;
-  width: 32px;
-}
-.botton-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 40px;
-  background: #325e6a;
-}
-.botton-header p {
-  font-size: 16px;
-  margin: 0;
-  color: white;
-}
+@import '../assets/styles/header.css';
 </style>

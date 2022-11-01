@@ -1,0 +1,82 @@
+.main-rec {
+    width: 100%;
+    height: 642px;
+    background: #f4f8fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main-box-blue {
+    width: 85%;
+    height: 384px;
+    background: #008bde;
+    border-radius: 10px;
+    transform: rotate(-5deg);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  }
+  .div-white {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #ffffff;
+    width: 100%;
+    height: 384px;
+    transform: rotate(5deg);
+    border-radius: 10px;
+  }
+  .heade-text {
+    font-size: 24px;
+    color: #325e6a;
+  }
+  p {
+    color: #325e6a;
+    font-size: 16px;
+  }
+  .main-text {
+    width: 75%;
+    text-align: center;
+  }
+  .btn-back {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 38px;
+    background-image: url("../assets/image/Polygon2.png");
+  }
+  .btn-next {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 38px;
+    background-image: url("../assets/image/Polygon2.png");
+  }
+  .pointer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .point {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgb(225, 222, 222);
+    margin: 0 7px;
+    margin-top: 50px;
+  }
+  .point:hover {
+    background: #ff9c00;
+  }
+  .point1 {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ff9c00;
+    margin: 0 7px;
+    margin-top: 50px;
+  }
